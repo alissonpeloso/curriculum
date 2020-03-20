@@ -1,8 +1,20 @@
+.profile{
+  width: 200px;
+  /* float: right; */
+  border: 20px;
+  border-style: inset;
+  border-radius: 100% 100%;
+  border-color: #b4d8f2;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  image-orientation: center;
+}
+
 h1{
   font-style: oblique;
   font-size: 30px;
   font-family: system-ui;
-  color: gray;
+  color: #758d9e;
+  text-align: center;
 }
 
 h2{
@@ -10,8 +22,8 @@ h2{
   font-size: 24px;
   font-family: system-ui;
   color: white;
-  background-color: gray;
   padding-left: 25px;
+  background-color: #758d9e;
 }
 
 p{
