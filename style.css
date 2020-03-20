@@ -1,12 +1,47 @@
 .profile{
   width: 220px;
-  /* float: right; */
   border: 20px;
   border-style: inset;
   border-radius: 100% 100%;
   border-color: #b4d8f2;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  image-orientation: center;
+  box-align: center;
+}
+
+.block{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: fixed;
+  right: 0px;
+  vertical-align: top;
+
+}
+img.social{
+  padding: 15px;
+  width: 30px;
+  border-radius: 25% 0% 0% 0%;
+  transition: all 0.4s;
+}
+img.social:hover{
+  cursor: pointer;
+  transform: translateX(-10px);
+  box-shadow: 1px 6px 4px 0px rgba(50, 50, 50, 0.45);
+}
+
+#facebook{
+  background-color: #4064ad;
+
+}
+#instagram{
+  background-color: #e71f24;
+}
+#linkedin{
+  background-color: #0271ae;
+
+}
+#github{
+  background-color: #000000;
 }
 
 h1{
