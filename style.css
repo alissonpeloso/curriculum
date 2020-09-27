@@ -1,75 +1,91 @@
-.profile{
-  width: 220px;
-  border: 20px;
-  border-style: inset;
-  border-radius: 100% 100%;
-  border-color: #b4d8f2;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  box-align: center;
+body{
+    font-family: lato;
 }
 
-.block{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  position: fixed;
-  right: 0px;
-  vertical-align: top;
-
-}
-img.social{
-  padding: 15px;
-  width: 30px;
-  border-radius: 25% 0% 0% 0%;
-  transition: all 0.4s;
-}
-img.social:hover{
-  cursor: pointer;
-  transform: translateX(-10px);
-  box-shadow: 1px 6px 4px 0px rgba(50, 50, 50, 0.45);
+header{
+    display: flex;
+    margin: 60px auto;
+    position: relative;
+    flex-wrap: wrap;
+    align-content: flex;
 }
 
-#facebook{
-  background-color: #4064ad;
-
-}
-#instagram{
-  background-color: #c04c99;
-}
-#linkedin{
-  background-color: #0271ae;
-
-}
-#github{
-  background-color: #000000;
+header .profile{
+    margin: auto;
+    box-sizing: border-box;
 }
 
-h1{
-  font-style: oblique;
-  font-size: 30px;
-  font-family: system-ui;
-  color: #758d9e;
-  text-align: center;
+.prifile img{
+    weight: 350px;
 }
 
-h2{
-  font-style: oblique;
-  font-size: 24px;
-  font-family: system-ui;
-  color: white;
-  padding-left: 25px;
-  background-color: #758d9e;
+header .content{
+    margin: auto;
+    padding: 0px 50px;
+    box-sizing: border-box;
+    /* width: 50%; */
 }
 
-p{
-  font-size: 16px;
-  font-family: system-ui;
-  color: gray;
-  padding-left: 20px;
+header h1{
+    font-size: 45px;
+    font-weight: 900;
+    color: rgba(84, 65, 142, 1);
+    letter-spacing: 0;
+    margin-bottom: 12px
 }
 
-li{
-  font-size: 16px;
-  font-family: system-ui;
-  color: gray;
+header p{
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 0;
+    color: black;
+    margin-top:0;
+}
+
+.container{
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.container .main{
+    color: white;
+    background-color: rgba(84, 65, 142, 1);
+    border-radius: 25px;
+    margin: auto;
+    padding: 50px;
+    margin-bottom: 30px;
+}
+
+.main h2{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.main p, ul{
+    font-size: 18;
+    font-weight: 400;
+}
+
+.main p{
+    margin-left: 20px;
+}
+
+.social{
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.social img{
+    width: 100px;
+}
+
+footer{
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 45px;
+    margin-bottom: 45px;
 }
