@@ -80,6 +80,11 @@ header p{
 
 .social img{
     width: 100px;
+    transition: all 0.4s;
+}
+
+.social img:hover{
+    transform: scale(1.1);
 }
 
 footer{
